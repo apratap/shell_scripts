@@ -27,7 +27,7 @@ source $SCRIPTS_BASE_DIR/aliases.sh
 #2. 
 if [ $HOSTNAME == "belltown" ]
 then
-    source $SHELL_DIR/load_modules.sh
+    source $SCRIPTS_BASE_DIR/modules.sh
 fi
 
 
